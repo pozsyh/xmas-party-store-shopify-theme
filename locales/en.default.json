@@ -83,6 +83,7 @@
       "title": "Shopping Cart",
       "remove": "Remove",
       "note": "Special instructions for seller",
+      "note_placeholder": "EN: placeholder text",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
