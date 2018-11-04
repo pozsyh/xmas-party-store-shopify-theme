@@ -17,7 +17,7 @@
     "type_button_base_size": "14px",
     "type_navigation_base_size": "16px",
     "cart_enable_ajax": true,
-    "show_breadcrumb_nav": true,
+    "show_breadcrumb_nav": false,
     "share_image": "",
     "social_facebook_link": "",
     "social_twitter_link": "",
@@ -33,9 +33,9 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/XmasPartyStore_Favicon_CandyCaneGreen.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/XmasPartyStore_Logo_Green2.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -52,9 +52,9 @@
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "title": "Our Products",
+          "title": "New in Store",
           "home_page_featured_products": "our-products",
-          "home_featured_products_row_num": 10
+          "home_featured_products_row_num": 6
         }
       },
       "featured-content": {
@@ -69,12 +69,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1540905011514": {
-            "type": "newsletter",
-            "settings": {
-              "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
-            }
-          },
           "1540917745386": {
             "type": "menu",
             "settings": {
@@ -87,6 +81,12 @@
             "settings": {
               "title": "About Us",
               "menu": "about-us"
+            }
+          },
+          "1540905011514": {
+            "type": "newsletter",
+            "settings": {
+              "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
             }
           }
         },
@@ -102,13 +102,13 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "",
-          "logo_max_width": "150",
+          "logo": "shopify:\/\/shop_images\/XmasPartyStore_Logo_Green2CROPPED.jpg",
+          "logo_max_width": "137",
           "show_announcement": true,
           "home_page_only": false,
-          "announcement_text": "Announce something here",
+          "announcement_text": "New items added everyday!",
           "announcement_link": "",
-          "tagline": "<p>Christmas is around the corner. Get your Christmas Shit here<\/p>"
+          "tagline": ""
         }
       },
       "sidebar": {
@@ -127,7 +127,7 @@
           "show_extra_tab": false,
           "extra_tab_content": "",
           "product_image_zoom_type": "zoom-in",
-          "enable_payment_button": true,
+          "enable_payment_button": false,
           "add_to_cart_width": "regular"
         }
       },
@@ -138,6 +138,34 @@
           "title": "",
           "banner": "",
           "banner_url": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "vendor_show": false,
+          "collection_sort_enable": true,
+          "collection_tag_enable": false
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "",
+          "logo_max_width": "200"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "title": "Opening Soon",
+          "newsletter_enable": true,
+          "newsletter_form_heading": "Be the first to know when we launch",
+          "newsletter_form_subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Submit",
+          "show_share_buttons": true,
+          "social_message": "Spread the word"
         }
       }
     },
