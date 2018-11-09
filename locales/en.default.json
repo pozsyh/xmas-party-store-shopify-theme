@@ -36,7 +36,7 @@
       "newsletter_heading": "Be in the know",
       "newsletter_label": "Sign up for the latest news, offers and styles",
       "newsletter_placeholder": "Your email",
-      "submit": "Subscribe",
+      "submit": "Sign me up!",
       "confirmation": "Thanks for subscribing"
     },
     "search": {
@@ -83,7 +83,7 @@
       "title": "Shopping Cart",
       "remove": "Remove",
       "note": "Special instructions for seller",
-      "note_placeholder": "Message or instructions for shipping or delivery.\neg. Leave with neighbour\neg. Do not leave by front door",
+      "note_placeholder": "Message or instructions for shipping or delivery (EG: \"Leave with neighbour\", or \"Do not leave by front door\")",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Shipping is FREE!",
       "taxes_and_shipping_policy_at_checkout_html": "Shipping is FREE!",
