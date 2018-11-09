@@ -1,0 +1,6 @@
+production:
+  theme_id: "41711927394"
+  store: christmas-party-shit.myshopify.com
+development:
+  theme_id: "43426873442"
+  store: christmas-party-shit.myshopify.com
