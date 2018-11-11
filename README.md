@@ -33,5 +33,7 @@ To deploy changes from the `production` branch after merging from the `master` b
 
 ```
 git checkout production
+theme download -e production
+git merge master
 theme deploy -e production
 ```
