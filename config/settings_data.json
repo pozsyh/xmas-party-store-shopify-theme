@@ -167,6 +167,14 @@
           "show_share_buttons": true,
           "social_message": "Spread the word"
         }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "date_reversed",
+          "grid": 3
+        }
       }
     },
     "content_for_index": [
