@@ -289,7 +289,8 @@
       "view_cart": "View cart",
       "continue_shopping": "Continue shopping",
       "description": "Description",
-      "full_details": "Full details"
+      "full_details": "Full details",
+      "description_postfix_html": "<p><strong>Shipping and Payment:<\/strong><\/p><p>- FREE SHIPPING to the United States, and the Netherlands<\/p><p>- Expected delivery window: 10 - 15 days<\/p><p>- We accept the following forms of payment: Visa, Mastercard, American Express, Discover, and PayPal<\/p>"
     },
     "zoom": {
       "next": "Next (Right arrow key)",

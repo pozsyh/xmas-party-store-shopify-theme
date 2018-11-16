@@ -13,6 +13,7 @@
         <div id="description" class="tab-switch__content" data-content="description">
           <div class="rte" itemprop="description">
             {{ product.description }}
+            {{ 'products.product.description_postfix_html' | t }}
           </div>
         </div>
         <div id="extra" class="tab-switch__content" data-content="extra">
@@ -27,19 +28,23 @@
       {% if position == 'right' %}
         <div class="product-single__description rte" itemprop="description">
           {{ product.description | split: '<!-- break -->' | first }}
+          {{ 'products.product.description_postfix_html' | t }}
         </div>
       {% elsif position == 'below' %}
         <div class="product-single__description rte">
           {{ product.description | split: '<!-- break -->' | last }}
+          {{ 'products.product.description_postfix_html' | t }}
         </div>
       {% endif %}
     {% elsif section.settings.product_description_position == 'right' and position == 'right' %}
       <div class="product-single__description rte" itemprop="description">
         {{ product.description }}
+        {{ 'products.product.description_postfix_html' | t }}
       </div>
     {% elsif section.settings.product_description_position == 'below' and position == 'below' %}
       <div class="product-single__description rte" itemprop="description">
         {{ product.description }}
+        {{ 'products.product.description_postfix_html' | t }}
       </div>
     {% endif %}
   {% endunless %}
