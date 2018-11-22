@@ -95,18 +95,17 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/XmasPartyStore_Logo_Green2CROPPED.jpg",
-          "logo_max_width": "137",
           "show_announcement": true,
           "home_page_only": false,
           "announcement_text": "Black Friday Sales on  Now! • Free shipping to the US and the Netherlands",
-          "announcement_link": "",
-          "tagline": ""
+          "announcement_link": ""
         }
       },
       "sidebar": {
         "type": "sidebar",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/XmasPartyStore_Logo_Green2CROPPED.jpg",
+          "logo_max_width": "137",
           "main_menu_link_list": "main-menu"
         }
       },

@@ -102,68 +102,8 @@
   </div>
 
   <hr class="small--hide hr--border">
+  <br class="small--hide">
 
-  <header class="site-header grid medium-up--grid--table" role="banner">
-    <div class="grid__item small--text-center">
-      <div itemscope itemtype="http://schema.org/Organization">
-        {% comment %}
-          Use the uploaded logo from theme settings if enabled.
-          Site name uses `h1` tag on homepage, div on other pages.
-        {% endcomment %}
-        {%- assign img_url = section.settings.logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-        {% assign width = section.settings.logo_max_width | times: 1 %}
-        {% include 'image-style' with image: section.settings.logo, width: width, height: 600, small_style: false, wrapper_id: 'HeaderLogoWrapper', img_id: 'HeaderLogo' %}
-
-        {% if section.settings.logo %}
-          <div id="HeaderLogoWrapper" class="supports-js">
-            <a href="/" itemprop="url" style="padding-top:{{ 1 | divided_by: section.settings.logo.aspect_ratio | times: 100}}%; display: block;">
-              <img id="HeaderLogo"
-                   class="lazyload"
-                   src="{{ section.settings.logo | img_url: '150x150' }}"
-                   data-src="{{ img_url }}"
-                   data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-                   data-aspectratio="{{ product.featured_image.aspect_ratio }}"
-                   data-sizes="auto"
-                   alt="{{ section.settings.logo.alt | default: shop.name }}"
-                   itemprop="logo">
-            </a>
-          </div>
-          <noscript>
-            {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
-            <a href="/" itemprop="url">
-              <img class="site-header__logo" src="{{ section.settings.logo | img_url: image_size }}"
-              srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
-              alt="{{ section.settings.logo.alt | default: shop.name }}"
-              itemprop="logo">
-            </a>
-          </noscript>
-          {% if template.name == 'index' %}
-            <h1 class="visually-hidden">{{ shop.name }}</h1>
-          {% endif %}
-        {% else %}
-          {% if template.name == 'index' %}
-            <h1 class="site-header__site-name">
-              <a href="/" itemprop="url">{{ shop.name }}</a>
-            </h1>
-          {% else %}
-            <a href="/" class="site-header__site-name h1" itemprop="url">
-              {{ shop.name }}
-            </a>
-            {% if template.name == 'index' %}
-              <h1 class="visually-hidden">{{ shop.name }}</h1>
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      </div>
-    </div>
-    {% unless section.settings.tagline == blank %}
-      <div class="grid__item medium-up--text-right small--text-center">
-        <div class="rte tagline">
-          {{ section.settings.tagline }}
-        </div>
-      </div>
-    {% endunless %}
-  </header>
 </div>
 
 
@@ -180,53 +120,6 @@
     "pt-BR": "Cabeçalho"
   },
   "settings": [
-    {
-      "type": "header",
-      "content": {
-        "de": "Logo",
-        "en": "Logo",
-        "es": "Logotipo",
-        "fr": "Logo",
-        "it": "Logo",
-        "ja": "ロゴ",
-        "pt-BR": "Logotipo"
-      }
-    },
-    {
-      "type": "image_picker",
-      "id": "logo",
-      "label": {
-        "de": "Logo-Foto",
-        "en": "Logo image",
-        "es": "Imagen del logotipo",
-        "fr": "Image du logo",
-        "it": "Immagine del logo",
-        "ja": "ロゴ画像",
-        "pt-BR": "Imagem do logotipo"
-      }
-    },
-    {
-      "type": "text",
-      "id": "logo_max_width",
-      "label": {
-        "de": "Benutzerdefinierte Logobreite (Pixel)",
-        "en": "Custom logo width (in pixels)",
-        "es": "Ancho del logotipo personalizado (en píxeles)",
-        "fr": "Largeur personnalisée du logo (en pixels)",
-        "it": "Larghezza logo personalizzato (in pixel)",
-        "ja": "ロゴの幅をカスタムする（ピクセルで）",
-        "pt-BR": "Largura do logotipo personalizado (em pixels)"
-      },
-      "default": {
-        "de": "150",
-        "en": "150",
-        "es": "150",
-        "fr": "150",
-        "it": "150",
-        "ja": "150",
-        "pt-BR": "150"
-      }
-    },
     {
       "type": "header",
       "content": {
@@ -309,31 +202,6 @@
         "it": "Facoltativo",
         "ja": "選択させる",
         "pt-BR": "Opcional"
-      }
-    },
-    {
-      "type": "header",
-      "content": {
-        "de": "Tagline",
-        "en": "Tagline",
-        "es": "Eslogan",
-        "fr": "Slogan",
-        "it": "Tagline",
-        "ja": "タグライン",
-        "pt-BR": "Tagline"
-      }
-    },
-    {
-      "type": "richtext",
-      "id": "tagline",
-      "label": {
-        "de": "Text",
-        "en": "Text",
-        "es": "Texto",
-        "fr": "Texte",
-        "it": "Testo",
-        "ja": "テキスト",
-        "pt-BR": "Texto"
       }
     }
   ]
