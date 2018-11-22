@@ -68,9 +68,7 @@
       {% section "sidebar" %}
 
       <main class="main-content grid__item medium-up--four-fifths" id="MainContent" role="main">
-        {% unless template.name == 'index' %}
-          <hr class="hr--border-top small--hide">
-        {% endunless %}
+        <br class="small--hide">
         {% if settings.show_breadcrumb_nav and template.name != 'index' %}
           {% include 'breadcrumb-nav' %}
         {% endif %}
