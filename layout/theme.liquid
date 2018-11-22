@@ -37,13 +37,11 @@
   </script>
 
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
-  {{ 'timeTo.css' | asset_url | stylesheet_tag }}
 
   {{ content_for_header }}
 
   {{ 'jquery-1.11.0.min.js' | asset_url | script_tag }}
   {{ 'modernizr.min.js' | asset_url | script_tag }}
-  {{ 'jquery.time-to.min.js' | asset_url | script_tag }}
 
   <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script><!--<![endif]-->
   <!--[if lte IE 9]><script src="{{ 'lazysizes.min.js' | asset_url }}"></script><![endif]-->
@@ -98,6 +96,5 @@
   {% endif %}
 
   {{ 'theme.js' | asset_url | script_tag }}
-  {{ 'countdown-to-xmas.js' | asset_url | script_tag }}
 </body>
 </html>
