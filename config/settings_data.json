@@ -22,7 +22,7 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/xmaspartystore",
     "social_twitter_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/xmaspartystore\/",
     "social_snapchat_link": "",
     "social_google_plus_link": "",
     "social_tumblr_link": "",
@@ -82,18 +82,11 @@
               "title": "About Us",
               "menu": "about-us"
             }
-          },
-          "1540905011514": {
-            "type": "newsletter",
-            "settings": {
-              "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
-            }
           }
         },
         "block_order": [
           "1540917745386",
-          "1540917779486",
-          "1540905011514"
+          "1540917779486"
         ],
         "settings": {
           "show_payment_icons": true
@@ -106,7 +99,7 @@
           "logo_max_width": "137",
           "show_announcement": true,
           "home_page_only": false,
-          "announcement_text": "Free shipping to the US and the Netherlands • New items added everyday!",
+          "announcement_text": "Black Friday Sales on  Now! • Free shipping to the US and the Netherlands",
           "announcement_link": "",
           "tagline": ""
         }
@@ -133,10 +126,9 @@
       },
       "1540904880935": {
         "type": "featured-banner",
-        "disabled": true,
         "settings": {
           "title": "",
-          "banner": "",
+          "banner": "shopify:\/\/shop_images\/Site_banner_Black_Friday_93a47c4e-72f9-410d-b7ef-e723be76e8d8.png",
           "banner_url": ""
         }
       },
