@@ -54,7 +54,7 @@
         "settings": {
           "title": "New in Store",
           "home_page_featured_products": "our-products",
-          "home_featured_products_row_num": 3
+          "home_featured_products_row_num": 2
         }
       },
       "featured-content": {
@@ -166,12 +166,52 @@
           "sort": "date_reversed",
           "grid": 3
         }
+      },
+      "1542979258860": {
+        "type": "collection-list",
+        "blocks": {
+          "1542979258860-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "christmas-sweaters"
+            }
+          },
+          "1542979258860-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "head-gear"
+            }
+          },
+          "1542979258860-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "home-decorations"
+            }
+          },
+          "1542979286807": {
+            "type": "collection",
+            "settings": {
+              "collection": "temporary-tattoos"
+            }
+          }
+        },
+        "block_order": [
+          "1542979258860-0",
+          "1542979258860-1",
+          "1542979258860-2",
+          "1542979286807"
+        ],
+        "settings": {
+          "title": "Shop Collections",
+          "grid": 4
+        }
       }
     },
     "content_for_index": [
       "1540904880935",
       "featured-products",
-      "featured-content"
+      "featured-content",
+      "1542979258860"
     ]
   },
   "presets": {
