@@ -52,9 +52,9 @@
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "title": "New in Store",
-          "home_page_featured_products": "our-products",
-          "home_featured_products_row_num": 2
+          "title": "Featured Items",
+          "home_page_featured_products": "featured-collection",
+          "home_featured_products_row_num": 3
         }
       },
       "featured-content": {
@@ -97,15 +97,15 @@
         "settings": {
           "show_announcement": true,
           "home_page_only": false,
-          "announcement_text": "Black Friday Sales on  Now! • Free shipping to the US and the Netherlands",
+          "announcement_text": "Free shipping to the US and the Netherlands • Use code EX-MAS at checkout to get 20% off",
           "announcement_link": ""
         }
       },
       "sidebar": {
         "type": "sidebar",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/XmasPartyStore_Logo_Green2CROPPED.jpg",
-          "logo_max_width": "137",
+          "logo": "shopify:\/\/shop_images\/Logo_v2.png",
+          "logo_max_width": "500",
           "main_menu_link_list": "main-menu"
         }
       },
@@ -127,7 +127,7 @@
         "type": "featured-banner",
         "settings": {
           "title": "",
-          "banner": "shopify:\/\/shop_images\/Site_banner_Black_Friday_93a47c4e-72f9-410d-b7ef-e723be76e8d8.png",
+          "banner": "shopify:\/\/shop_images\/FB_cover_and_site_banner_Embrace_the_kitsch_3.png",
           "banner_url": ""
         }
       },
@@ -170,16 +170,16 @@
       "1542979258860": {
         "type": "collection-list",
         "blocks": {
-          "1542979258860-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "christmas-sweaters"
-            }
-          },
           "1542979258860-1": {
             "type": "collection",
             "settings": {
               "collection": "head-gear"
+            }
+          },
+          "1542979258860-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "christmas-sweaters"
             }
           },
           "1542979258860-2": {
@@ -188,18 +188,46 @@
               "collection": "home-decorations"
             }
           },
+          "1543368047694": {
+            "type": "collection",
+            "settings": {
+              "collection": "nail-wraps"
+            }
+          },
+          "1543333207662": {
+            "type": "collection",
+            "settings": {
+              "collection": "secret-santa-10-and-under"
+            }
+          },
           "1542979286807": {
             "type": "collection",
             "settings": {
               "collection": "temporary-tattoos"
             }
+          },
+          "1543832452531": {
+            "type": "collection",
+            "settings": {
+              "collection": "christmas-cats"
+            }
+          },
+          "1543832494495": {
+            "type": "collection",
+            "settings": {
+              "collection": "derpy-animals"
+            }
           }
         },
         "block_order": [
-          "1542979258860-0",
           "1542979258860-1",
+          "1542979258860-0",
           "1542979258860-2",
-          "1542979286807"
+          "1543368047694",
+          "1543333207662",
+          "1542979286807",
+          "1543832452531",
+          "1543832494495"
         ],
         "settings": {
           "title": "Shop Collections",
