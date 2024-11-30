@@ -61,7 +61,7 @@
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "title": "Featured Items",
+          "title": "Ajánlott termékek",
           "home_page_featured_products": "featured-collection",
           "home_featured_products_row_num": 3
         }
