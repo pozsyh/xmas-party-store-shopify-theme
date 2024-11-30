@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -19,10 +28,10 @@
     "cart_enable_ajax": true,
     "show_breadcrumb_nav": false,
     "share_image": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/xmaspartystore",
+    "social_facebook_link": "https://www.facebook.com/xmaspartystore",
     "social_twitter_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/xmaspartystore\/",
+    "social_instagram_link": "https://www.instagram.com/xmaspartystore/",
     "social_snapchat_link": "",
     "social_google_plus_link": "",
     "social_tumblr_link": "",
@@ -33,9 +42,9 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "shopify:\/\/shop_images\/XmasPartyStore_Favicon_CandyCaneGreen.png",
+    "favicon": "shopify://shop_images/XmasPartyStore_Favicon_CandyCaneGreen.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/XmasPartyStore_Logo_Green2.png",
+    "checkout_logo_image": "shopify://shop_images/XmasPartyStore_Logo_Green2.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -62,7 +71,7 @@
         "disabled": true,
         "settings": {
           "section_title": "Talk about your brand",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
           "text_size": "medium"
         }
       },
@@ -104,7 +113,7 @@
       "sidebar": {
         "type": "sidebar",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Logo_v2.png",
+          "logo": "shopify://shop_images/Logo_v2.png",
           "logo_max_width": "500",
           "main_menu_link_list": "main-menu"
         }
@@ -127,7 +136,7 @@
         "type": "featured-banner",
         "settings": {
           "title": "",
-          "banner": "shopify:\/\/shop_images\/FB_cover_and_site_banner_Embrace_the_kitsch_3.png",
+          "banner": "shopify://shop_images/FB_cover_and_site_banner_Embrace_the_kitsch_3.png",
           "banner_url": ""
         }
       },
@@ -152,7 +161,7 @@
           "title": "Opening Soon",
           "newsletter_enable": true,
           "newsletter_form_heading": "Be the first to know when we launch",
-          "newsletter_form_subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "newsletter_form_subheading": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
           "newsletter_placeholder": "Email address",
           "newsletter_button_text": "Submit",
           "show_share_buttons": true,
@@ -240,7 +249,14 @@
       "featured-products",
       "featured-content",
       "1542979258860"
-    ]
+    ],
+    "blocks": {
+      "17183793864293902153": {
+        "type": "shopify://apps/rt-christmas-snowfall-effects/blocks/app-embed/0cf10f7c-3937-48ce-9253-6ac6f06bc961",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Light": {
