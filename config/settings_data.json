@@ -10,7 +10,7 @@
 {
   "current": {
     "color_body_bg": "#e7acac",
-    "color_body_text": "#333333",
+    "color_body_text": "#00a14b",
     "color_primary_color": "#00a14b",
     "color_primary_button_text": "#ffffff",
     "color_sale_badge": "#c8493f",
@@ -106,7 +106,7 @@
         "settings": {
           "show_announcement": true,
           "home_page_only": false,
-          "announcement_text": "Free shipping to the US and the Netherlands • Use code EX-MAS at checkout to get 20% off",
+          "announcement_text": "Ingyenes kiszállítás Magyarországon! A Mikulás ajándékát ne hagyd ki ;)",
           "announcement_link": ""
         }
       },
