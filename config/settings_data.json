@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "color_body_bg": "#ffffff",
+    "color_body_bg": "#e7acac",
     "color_body_text": "#333333",
     "color_primary_color": "#00a14b",
     "color_primary_button_text": "#ffffff",
@@ -82,14 +82,14 @@
             "type": "menu",
             "settings": {
               "title": "Customer Service",
-              "menu": "customer-service"
+              "menu": ""
             }
           },
           "1540917779486": {
             "type": "menu",
             "settings": {
               "title": "About Us",
-              "menu": "about-us"
+              "menu": ""
             }
           }
         },
@@ -113,7 +113,6 @@
       "sidebar": {
         "type": "sidebar",
         "settings": {
-          "logo": "shopify://shop_images/Logo_v2.png",
           "logo_max_width": "500",
           "main_menu_link_list": "main-menu"
         }
@@ -136,7 +135,6 @@
         "type": "featured-banner",
         "settings": {
           "title": "",
-          "banner": "shopify://shop_images/FB_cover_and_site_banner_Embrace_the_kitsch_3.png",
           "banner_url": ""
         }
       },
