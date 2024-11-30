@@ -135,6 +135,7 @@
         "type": "featured-banner",
         "settings": {
           "title": "",
+          "banner": "shopify://shop_images/1000000684.jpg",
           "banner_url": ""
         }
       },
