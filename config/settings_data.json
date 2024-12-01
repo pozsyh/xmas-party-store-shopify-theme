@@ -211,18 +211,21 @@
           },
           "1542979286807": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "temporary-tattoos"
             }
           },
           "1543832452531": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "christmas-cats"
             }
           },
           "1543832494495": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "derpy-animals"
             }
