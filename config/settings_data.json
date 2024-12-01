@@ -60,6 +60,7 @@
     "sections": {
       "featured-products": {
         "type": "featured-products",
+        "disabled": true,
         "settings": {
           "title": "Ajánlott termékek",
           "home_page_featured_products": "featured-collection",
@@ -181,7 +182,7 @@
           "1542979258860-1": {
             "type": "collection",
             "settings": {
-              "collection": "head-gear"
+              "collection": "hazi-kedvenc-diszek"
             }
           },
           "1542979258860-0": {
